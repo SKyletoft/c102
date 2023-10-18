@@ -16,8 +16,11 @@ applikationskod på linux. Inget är i ordning än.
 	Malloc/free
 	one-past-the-end
 	basic pointer provinence
+	Reimplement a std::vector
 ### Varningar och sanitisers
+	Implicit conversions
 ### Byggsystem, länkning och bibliotek
+	Package managers
 ### Embedded C
 	volatile
 	hardware registers
@@ -27,3 +30,4 @@ applikationskod på linux. Inget är i ordning än.
 	constexpr
 ### POSIX?
 ### Socker?
+	C99 Compund literals
