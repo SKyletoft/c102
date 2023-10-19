@@ -15,7 +15,7 @@ MyStruct new_mystruct(float a, long b, int c) {
 }
 
 int main() {
-    MyStruct ms = new_mystruct();
+    MyStruct ms = new_mystruct(1, 2, 3);
 
     printf(
         "%ld\n",

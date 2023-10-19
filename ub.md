@@ -7,7 +7,7 @@ Vi börjar med ett javaexempel
 ```java
 class Main {
     static int f(Integer num) {
-        int x = num;
+        int x = num.intValue();
 
         if (num == null) {
             System.out.println("num was null!");
@@ -27,6 +27,7 @@ class Main {
 >   at Main.f(example.java:3)
 >   at Main.main(example.java:14)
 ```
+https://godbolt.org/z/9zdcxxq1G
 
 Vad händer här?
 Vi läser från num före vi kollar om det är null och krashar med en
@@ -41,7 +42,7 @@ class Main {
             return -1;
         }
 
-        int x = num;
+        int x = num.intValue();
         return x + 5;
     }
 
