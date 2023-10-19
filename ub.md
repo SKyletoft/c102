@@ -230,6 +230,11 @@ så då kan vi ju lika gärna ta bort den.
 
 Och då hamnar vi där i började.
 
+Det är viktigt att poängtera här att optimeringarna *inte* hade sönder
+koden. Allt den gjorde var 100% korrekt. Koden var alltid trasig och
+ogiltig. Och man behöver inte ens använda optimeringar för att sånt
+här ska ske.
+
 ## Vanligt förekommande UB
 
 Null pointer dereference
