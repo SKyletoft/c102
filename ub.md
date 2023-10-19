@@ -211,7 +211,8 @@ Så, om vi nu backar längre, tillbaks till koden som försvann.
 
 Här samspelade två regler för den abstrakta maskinen.
 
-* Om odefinierat beteende sker får vad som helst hända och vi behöver inte bry oss.
+* Om odefinierat beteende sker får vad som helst hända och vi behöver
+  inte bry oss.
 * Att läsa från en nullpekare är odefinierat.
 
 Så vad händer?
@@ -221,8 +222,10 @@ Om den inte är null så läser vi korrekt in till x.
 Om den är null så spelar det inte någon roll vad som händer.
 
 * Sen kollar vi om pekaren är null.
-Vi har redan läst från pekaren, så antingen är den inte null och det är fine, eller så är den null och vi är redan i odefinieratland.
-Oavsett så kommer vi aldrig komma in i if-satsen i väldefinierad kod, så då kan vi ju lika gärna ta bort den.
+Vi har redan läst från pekaren, så antingen är den inte null och det
+är fine, eller så är den null och vi är redan i odefinieratland.
+Oavsett så kommer vi aldrig komma in i if-satsen i väldefinierad kod,
+så då kan vi ju lika gärna ta bort den.
 
 Och då hamnar vi där i började.
 
