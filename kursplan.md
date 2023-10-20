@@ -13,6 +13,7 @@ applikationskod på linux. Inget är i ordning än.
 	Optimering & implementationsfrihet
 	Implementationsdefinierat vs odefinierat.
 ### Minne, pekare & provinens
+	lifetimes
 	Malloc/free
 	one-past-the-end
 	basic pointer provinence
